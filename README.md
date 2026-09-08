@@ -91,9 +91,32 @@ Berikut adalah dokumentasi alur program, mulai dari tampilan awal sampai proses 
 
 - **Keluar Dari Program**  
   ![image alt](https://github.com/RivalioChendra/pbo_prak/blob/103d9541650dc4ebf2350557366a5ca1a5ef49c9/minpro1/Screenshot%202026-09-08%20163605.png)  
-  Jika pengguna memasukkan opsi 6, maka sistem akan terhenti.  
+  Jika pengguna memasukkan opsi 6, maka sistem akan terhenti.
 
-  
+
+## 3. Penerapan Access Modifier dan Encapsulation   
+untuk letak penerapan Acces Modifier dan Encapsulation adalah sebagai berikut:    
+
+
+**a. Pada class Narapidana.java dan Sel.java**      
+Semua atribut dibuat private:  
+![image alt](https://github.com/RivalioChendra/pbo_prak/blob/f7b57cb98220deb1762aa02beef19555606efe5b/minpro1/Screenshot%202026-09-08%20170317.png)    
+
+Karena atributnya private, class lain tidak dapat mengakses n.idNapi secara langsung. Akses hanya dapat dilakukan melalui getter dan setter yang telah disediakan:   
+![image alt](https://github.com/RivalioChendra/pbo_prak/blob/f7b57cb98220deb1762aa02beef19555606efe5b/minpro1/Screenshot%202026-09-08%20170341.png)    
+
+
+**b. Pada AdminLapas.java**   
+ArrayList dan Scanner juga dideklarasikan private, sehingga Main tidak dapat mengakses data tersebut secara langsung:     
+![image alt](https://github.com/RivalioChendra/pbo_prak/blob/f7b57cb98220deb1762aa02beef19555606efe5b/minpro1/Screenshot%202026-09-08%20170416.png) 
+
+Main hanya dapat berinteraksi melalui method public yang telah disediakan, contohnya:     
+![image alt](https://github.com/RivalioChendra/pbo_prak/blob/f7b57cb98220deb1762aa02beef19555606efe5b/minpro1/Screenshot%202026-09-08%20170520.png)  
+
+
+**c. Penggunaan Getter**    
+Pada method hapusNarapidana() dan updateNomorSel(), pencarian data dilakukan menggunakan getter getIdNapi(), bukan mengakses atribut secara langsung:  
+![image alt](https://github.com/RivalioChendra/pbo_prak/blob/f7b57cb98220deb1762aa02beef19555606efe5b/minpro1/Screenshot%202026-09-08%20170700.png)  
 
   
 
