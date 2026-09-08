@@ -39,13 +39,6 @@ Main.java             -> Class entry point (tampilan
 
 **d. Main (entry point)** Titik awal program dijalankan. Berisi tampilan menu, perulangan while agar program terus berjalan sampai pengguna memilih keluar, serta percabangan switch untuk memilih menu mana yang akan dijalankan.
 
-### Alur Menjalankan Program
-- Program dimulai dari main() di class Main, lalu membuat objek AdminLapas beserta beberapa data awal.
-- Program masuk ke perulangan while yang menampilkan menu dan menerima pilihan pengguna secara terus-menerus.
-- Setiap pilihan menu (1–6) diarahkan lewat percabangan switch ke method yang sesuai di AdminLapas: Tambah, Tampilkan, Hapus, Update, Tampilkan Sel, atau Keluar.
-- Khusus fitur Hapus dan Update, program mencari data berdasarkan ID menggunakan boolean ditemukan. Jika ID tidak ada, muncul pesan error; jika ada, data diproses.
-- Program terus berulang sampai pengguna memilih menu Keluar, yang mengubah berjalan menjadi false dan menghentikan perulangan while.
-
 ### Dokumentasi Program  
 Berikut adalah dokumentasi alur program, mulai dari tampilan awal sampai proses CRUD dijalankan.  
 - **Tampilan Menu Utama**   
