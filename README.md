@@ -67,7 +67,7 @@ Berikut adalah dokumentasi alur program, mulai dari tampilan awal sampai proses 
 - **Update Data Sel Narapidana**  
   ![image alt](https://github.com/RivalioChendra/pbo_prak/blob/103d9541650dc4ebf2350557366a5ca1a5ef49c9/minpro1/Screenshot%202026-09-08%20163350.png)  
   Jika pengguna memasukkan pilihan 4, maka akan diminta mengisi ID napi yang ingin di ubah, serta nomor sel barunya. Sebagai contoh disini saya ingin mengubah napi
-  dengan id N003 yang awalnya berada di sel A2 menjadi A1.    
+  dengan id N003 yang awalnya berada di sel A3 menjadi A1.    
 
   ![image alt](https://github.com/RivalioChendra/pbo_prak/blob/103d9541650dc4ebf2350557366a5ca1a5ef49c9/minpro1/Screenshot%202026-09-08%20163412.png)  
   Ketika dicek dapat terlihat bahwa sel telah terubah menjadi A1.     
